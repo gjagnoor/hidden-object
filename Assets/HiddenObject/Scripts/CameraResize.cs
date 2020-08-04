@@ -11,6 +11,7 @@ public class CameraResize : MonoBehaviour
     {
         float ratio = (float)Screen.width / Screen.height;
 
-        GetComponent<Camera>().orthographicSize = (0.6f / ratio) * 5;
+        GetComponent<Camera>().orthographicSize = 7;
+        // GetComponent<Camera>().orthographicSize = (0.6f / ratio) * 5;
     }
 }
